@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/electronic_shopping_site/static/css/main.028e8075.css",
+    "main.js": "/electronic_shopping_site/static/js/main.873ede26.js",
+    "index.html": "/electronic_shopping_site/index.html",
+    "main.028e8075.css.map": "/electronic_shopping_site/static/css/main.028e8075.css.map",
+    "main.873ede26.js.map": "/electronic_shopping_site/static/js/main.873ede26.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.028e8075.css",
+    "static/js/main.873ede26.js"
+  ]
+}
