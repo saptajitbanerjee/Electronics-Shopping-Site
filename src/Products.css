@@ -1,0 +1,85 @@
+.card img {
+    width: 100%;
+    max-width: 240px;
+    max-height: 280px;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+    background-color: white;
+}
+
+@keyframes bounce {
+    0% {
+        transform: scale(1)
+    }
+    50% {
+        transform: scale(1.1)
+    }
+    100% {
+        transform: scale(1)
+    }
+}
+
+.card img:hover {
+    animation-name: bounce;
+    animation-duration: 1s;
+}
+
+.card {
+    height: 400px;
+    width: 240px;
+    border: 5px solid white;
+    border-radius: 15px;
+    margin: 15px;
+    font-size: 15px;
+    padding: 20px;
+    justify-content: center;
+    text-align: center;
+    overflow: hidden;
+    background-color: royalblue;
+    color: white;
+}
+
+.card p {
+    font-size: 15px;
+    font-family: Verdana;
+}
+
+.products {
+    margin: 20px auto;
+    display: flex;
+    grid-template-columns: repeat(3, 15%);
+    width: 80%;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: gold;
+}
+
+.product-add-button {
+    font-size: 18px;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+}
+
+.product-add-button:hover {
+    transform: translateY(5px);
+    transition: 1s;
+    background-color: gold;
+}
+
+.product-add-button:focus {
+    transform: translateY(5px);
+    background-color: red;
+    color: gold;
+    transition: 1s;
+}

@@ -1,0 +1,87 @@
+.mobile {
+    margin: -10px 0px;
+}
+
+.mobile:hover {
+    animation-name: rotate;
+    animation-duration: 0.5s;
+}
+
+@keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+    50% {
+        transform: rotate(30deg);
+    }
+    100% {
+        transform: rotate(0deg);
+    }
+}
+
+ul li svg {
+    margin: -5px 2px;
+}
+
+sup {
+    border-radius: 50%;
+    width: 2px;
+    display: inline-block;
+    border: 2px solid white;
+    height: 20px;
+    width: 20px;
+    text-align: center;
+    line-height: 15px;
+    padding: 2px;
+    margin: 0px 5px;
+}
+
+.header {
+    position: sticky;
+    top: 0;
+    min-height: 80px;
+    width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    overflow: hidden;
+    background-color: royalblue;
+    z-index: 3;
+    border: 2px solid black;
+}
+
+.logo {
+    color: white;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: Arial;
+    font-size: 32px;
+    padding-left: 20px;
+    cursor: default;
+}
+
+.header-links {
+    display: flex;
+}
+
+.header-links ul li {
+    list-style: none;
+    display: inline-block;
+    font-size: 24px;
+    padding-right: 20px;
+    text-transform: uppercase;
+}
+
+.header-links ul li a {
+    text-decoration: none;
+    color: white
+}
+
+.header-links ul li a:hover {
+    color: yellow;
+}
+
+.header-links ul li a:hover sup {
+    border: 2px gold solid;
+}

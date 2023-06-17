@@ -1,0 +1,53 @@
+form {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    width: 80%;
+    border: 2px solid black;
+    border-radius: 25px;
+    border: 5px gold solid;
+    background-image: url(https://i.pinimg.com/736x/7a/75/c3/7a75c33f3c9eb58729895c04da209bf5.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative
+}
+
+input {
+    margin: 10px;
+    font-size: 20px;
+    border-radius: 15px;
+    text-align: center;
+    border: 5px solid gold;
+}
+
+button {
+    font-size: 18px;
+    background-color: gold;
+    color: white;
+    cursor: pointer;
+    text-transform: uppercase;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    outline: none;
+    font-weight: bold;
+}
+
+button:hover {
+    transform: translateY(5px);
+    transition: 1s;
+    background-color: green;
+}
+
+label {
+    font-size: 20px;
+    color: gold;
+    font-weight: bold;
+    font-family: Verdana;
+    margin: 5px;
+    text-decoration: underline;
+}

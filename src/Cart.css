@@ -1,0 +1,112 @@
+.cart-items {
+    background-color: gold;
+    width: 70%;
+    margin: 30px auto;
+    text-align: center;
+    border: black 2px solid;
+}
+
+.cart-item-image {
+    width: 100%;
+    max-width: 240px;
+    max-height: 280px;
+    display: block;
+    object-fit: cover;
+    border-radius: 15px;
+    background-color: white;
+}
+
+.cart-item-list {
+    padding: 25px;
+    margin: 20px;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: royalblue;
+    color: white;
+    font-weight: bold;
+    font-size: 24px;
+    font-family: Verdana;
+    border: 5px solid white;
+}
+
+.cart-items-header {
+    padding: 20px;
+    border-bottom: black 2px solid;
+    color: black;
+    font-weight: bold;
+    font-size: 32px;
+    font-family: Verdana;
+    text-decoration: underline;
+    text-transform: uppercase;
+    background-color: gold;
+}
+
+.cart-items-empty {
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Verdana;
+    text-transform: uppercase;
+}
+
+.cart-item-name {
+    max-width: 300px;
+}
+
+.total-price {
+    border-top: 2px solid black;
+    display: flex;
+    justify-content: space-between;
+    background-color: gold;
+    color: white;
+    font-weight: bold;
+    font-size: 28px;
+    font-family: Verdana;
+    text-transform: uppercase;
+    padding: 10px 20px;
+}
+
+.cart-items-add {
+    cursor: pointer;
+    color: red;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    background-color: white;
+    font-size: 40px;
+    padding: 2px;
+    border-radius: 10px;
+}
+
+.cart-items-add:hover {
+    transform: translateY(10px);
+    background-color: red;
+    color: white;
+    transition: 1s;
+}
+
+.cart-items-remove {
+    cursor: pointer;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    align-items: center;
+    color: green;
+    background-color: white;
+    font-size: 40px;
+    padding: 2px;
+    outline: none;
+    border-radius: 10px;
+}
+
+.cart-items-remove:hover {
+    transform: translateY(10px);
+    background-color: green;
+    color: white;
+    transition: 1s;
+}
